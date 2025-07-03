@@ -22,7 +22,7 @@ def main():
         print("Error: Invalid operation!")
         return
     
-    print("Using next-gen AI, the result is: ", output)
+    print("Using next-gen AI, the result is: ", round(output, 2))
 
 if __name__ == "__main__":
     main()
